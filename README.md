@@ -8,6 +8,7 @@ for learning RPA
  - close workbook
  - close instance
  - Write Collectionの入力
+ 
 *handle: Excelのインスタンスを識別するための数値。以前の記事で説明しました
 *Collection: Excelシートに書き出すコレクションです。
 *Workbook Name: ブックの名前です。ファイルの名前ではありません
