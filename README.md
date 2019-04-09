@@ -15,6 +15,8 @@ for learning RPA
 *Worksheet Name: シートの名前です 
 *Cell Reference: どこのセルから書き出すかを決めます ex. A2
 *Include Column Name: コレクションの列名を書き出すかどうかを決めます
+ # set Collection Field
+ # read Collection Field
  
 - MS Outlook VBO 
 - File Management
