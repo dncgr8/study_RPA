@@ -17,6 +17,7 @@ for learning RPA
 *Include Column Name: コレクションの列名を書き出すかどうかを決めます
  #### set Collection Field
  #### read Collection Field
+ #### Find Value From Workbook
  
 - MS Outlook VBO 
 - File Management
