@@ -1,4 +1,4 @@
-# study_RPA
+# study_VBA
 for learning RPA
 ## to do study!
 ### MS Excel VBO
