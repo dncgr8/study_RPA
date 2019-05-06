@@ -82,3 +82,4 @@ Dim resultNext As Microsoft.Office.Interop.Excel.Range = result
     Return result.Address
 
 End Function 
+`insert this code into Blueprism VBO
