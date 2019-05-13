@@ -4,20 +4,20 @@ Function Find (ByVal Handle As Integer, ByVal WorkbookName As String,
                ByVal WholeWords As Boolean, ByVal MatchCase As Boolean,
                ByVal SearchByRow As Boolean, ByVal SearchPrevious As Boolean)As String
 
-`Excel 操作　オブジェクト
+'Excel 操作　オブジェクト
 
 Dim xlApp As Microsoft.Office.Interop.Excel.Application = Nothing
 Dim xlBooks As Microsoft.Office.Interop.Excel.Workbooks = Nothing
 Dim xlBook As Microsoft.Office.Interop.Excel.Workbook = Nothing
 Dim xlSheet As Microsoft.Office.Interop.Excel.Worksheet = Nothing
 
-`Excel アプリケーション　生成
+'Excel アプリケーション　生成
 
 xlApp = GetInstance(Handle)
 xlBooks = xlApp.WorkBooks
 xlBook = xlBooks.(WorkbookName)
 
-`シートを選択する
+'シートを選択する
 
 xlSheet = CType(xlBook.Sheets(WorksheetName), Microsoft.Office.Interop.Excel.Worksheet)
 xlSheet.Select()
@@ -82,4 +82,4 @@ Dim resultNext As Microsoft.Office.Interop.Excel.Range = result
     Return result.Address
 
 End Function 
-`insert this code into Blueprism VBO
+'insert this code into Blueprism VBO
