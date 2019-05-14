@@ -32,9 +32,9 @@ Else
     referenceRange = xlSheet.Range(RangeReference)
 
 End If
-`If referenceRange.Cell.Count = 1 Then
-`   Return FindWhat.Equals("" & referenceRange.Cells(1).Value)
-`End If
+'If referenceRange.Cell.Count = 1 Then
+'   Return FindWhat.Equals("" & referenceRange.Cells(1).Value)
+'End If
 
 Dim result As Microsoft.Office.Interop.Excel.Range = Nothing
 result = referenceRange.Find(FindWhat,LookIn:=LookIn, LookAt:=Microsoft.VisualBasic.IIf(WholeWords,1,2),
