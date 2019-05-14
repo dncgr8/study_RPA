@@ -83,4 +83,4 @@ Dim resultNext As Microsoft.Office.Interop.Excel.Range = result
 
 End Function 
 'insert this code into Blueprism VBO
-'なんでコミットできない？？
+'なんでコミットできない？？?
