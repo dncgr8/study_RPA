@@ -1,5 +1,5 @@
 Function Find (ByVal Handle As Integer, ByVal WorkbookName As String, 
-               ByVal Worksheet As String, ByVal RangeReference As String,
+               ByVal WorksheetName As String, ByVal RangeReference As String,
                ByVal FindWhat As String, ByVal LookIn As Integer,
                ByVal WholeWords As Boolean, ByVal MatchCase As Boolean,
                ByVal SearchByRow As Boolean, ByVal SearchPrevious As Boolean)As String
